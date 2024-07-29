@@ -60,7 +60,7 @@ class ChartsData(APIView):
         s3 = session.client('s3')
         print("Client create")
         # Specify the bucket name and the key (file path within the bucket)
-        bucket_name = 'fraud-detection-esse'
+        bucket_name = 'fraudguard-esse'
         key = 'dataset_with_labels.csv'
         print("Start")
         # Get the object from S3
